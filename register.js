@@ -17,7 +17,6 @@ let validate = () => {
 
   if (errorMsg.length == 0){
       alert('Registration Success!');
-      window.location = 'charlessantoso.github.io/index.html';
   }else{
       alert(errorMsg.join('\n'));
   }
